@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/accordion.css" />
     <link rel="stylesheet" href="css/menu.css" />
     <script src="./js/accordion.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 </head>
 <body>
     <header class="main">
@@ -371,7 +374,6 @@
             <h1 class="services__title"><span>ПРЕИМУЩЕСТВА</span> РАЗРАБОТКИ САЙТА</h1>
             <p class="services__text">Мы выделили основные преимущества по разработке сайта под ключ с нами</p>
             <div class="advantages__cards">
-<!--                    <div class="advantages__card-wrapper">-->
                         <div class="advantages__card">
                             <div class="advantages__card-img-wrapper">
                                 <img src="./images/advantages1.png" alt="advantages" class="advantages__card-img">
@@ -381,8 +383,6 @@
                                 <p class="advantages__card-text">Перед разработкой сайта, мы всегда обсуждаем с клиентом его пожелания и предпочтения.</p>
                             </div>
                         </div>
-<!--                    </div>-->
-<!--                <div class="advantages__card-wrapper">-->
                     <div class="advantages__card">
                         <div class="advantages__card-img-wrapper">
                             <img src="./images/advantages2.png" alt="advantages" class="advantages__card-img">
@@ -392,8 +392,6 @@
                             <p class="advantages__card-text">Быстрее нас, только скорость света. Мы создаем качественный сайт, но при этом затрачиваем минимум времени. До 10 дней на разработку.</p>
                         </div>
                     </div>
-<!--                </div>-->
-<!--                <div class="advantages__card-wrapper">-->
                     <div class="advantages__card">
                         <div class="advantages__card-img-wrapper">
                             <img src="./images/advantages3.png" alt="advantages" class="advantages__card-img">
@@ -403,8 +401,6 @@
                             <p class="advantages__card-text">После разработки сайта, мы готовим вам видео-инструкции по управлению. Вы сможете самостоятельно заменить любой элемент сайта без привлечения программиста.</p>
                         </div>
                     </div>
-<!--                </div>-->
-<!--                <div class="advantages__card-wrapper">-->
                     <div class="advantages__card">
                         <div class="advantages__card-img-wrapper">
                             <img src="./images/advantages4.png" alt="advantages" class="advantages__card-img">
@@ -414,7 +410,6 @@
                             <p class="advantages__card-text">Вы платите только по факту выполнения работы. Мы не требуем никаких предоплата. Согласитесь, оплата за то что вы видите предпочтительнее кота в мешке</p>
                         </div>
                     </div>
-<!--                </div>-->
             </div>
         </div>
     </section>
@@ -442,18 +437,18 @@
             <h1 class="portfolio__title"><span>ПОРТФОЛИО</span> РАБОТ</h1>
             <p class="portfolio__text">Сюда мы добавили только пару несколько работ, чтоб вы понимали уровень того, как мы осуществляем разработку сайта</p>
             <div class="portfolio__items">
-                <div class="portfolio__item">
-                    <img src="./images/site1.jpg" alt="1" class="portfolio__item-img">
-                </div>
-                <div class="portfolio__item">
-                    <img src="./images/site2.jpg" alt="1" class="portfolio__item-img">
-                </div>
-                <div class="portfolio__item">
-                    <img src="./images/site3.jpg" alt="1" class="portfolio__item-img">
-                </div>
-                <div class="portfolio__item">
-                    <img src="./images/site4.jpg" alt="1" class="portfolio__item-img">
-                </div>
+                <a href="images/site1.jpg" class="fancybox portfolio__item" data-fancybox="gallery1">
+                    <img src="images/site1.jpg" alt="." class="portfolio__item-img">
+                </a>
+                <a href="images/site2.jpg" class="fancybox portfolio__item" data-fancybox="gallery1">
+                    <img src="images/site2.jpg" alt="." class="portfolio__item-img">
+                </a>
+                <a href="images/site3.jpg" class="fancybox portfolio__item" data-fancybox="gallery1">
+                    <img src="images/site3.jpg" alt="." class="portfolio__item-img">
+                </a>
+                <a href="images/site4.jpg" class="fancybox portfolio__item" data-fancybox="gallery1">
+                    <img src="images/site4.jpg" alt="." class="portfolio__item-img">
+                </a>
             </div>
         </div>
     </section>
@@ -502,18 +497,14 @@
                 </div>
                 <div class="instruments__images-wrapper">
                     <div class="instruments__images">
-<!--                        <div class="instruments__image">-->
                             <div class="instruments__img-wrapper">
                                 <img src="./images/instruments1.jpg" alt="hoster"  class="instruments__img instruments__img-top">
                                 <img src="./images/instruments2.jpg" alt="hoster"class="instruments__img" >
                             </div>
-<!--                        </div>-->
-<!--                        <div class="instruments__image">-->
                             <div class="instruments__img-wrapper">
                                 <img src="./images/instruments3.jpg" alt="hoster" class="instruments__img">
                                 <img src="./images/instruments4.jpg" alt="hoster" class="instruments__img">
                             </div>
-<!--                        </div>-->
                     </div>
                 </div>
             </div>
